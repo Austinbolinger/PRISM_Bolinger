@@ -18,5 +18,9 @@ The test bench results look like this.
 
 This is the ALU test bench code. https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/ALU_testbench.vhd
 
+
+####Data Checked
+Lesson 29 Dr. Neebel checked my ALU.
+
 #####Documentation
 C3C Pluger explained the importance of using unsigned and signed type casting.
