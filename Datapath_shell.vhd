@@ -103,8 +103,6 @@ begin
 	  elsif (Clock'event and Clock='1') then 
 		  if (IRLd = '1') then
 		      IR <= Data;   
-		  elsif (IRLd = '0') then
-			   IR <= "0000";
 		  end if;
 		end if;		
   	end process;   
@@ -121,8 +119,6 @@ process(Clock,Reset_L, MARHiLd,Data)--why reset_L
 	  elsif (Clock'event and Clock='1') then 
 		  if (MARHiLd = '1') then
 		      MARHi <= Data;   
-		  elsif (MARHiLd = '0') then
-			   MARHi <= "0000";
 		  end if;
 		end if;		
   	end process;       
@@ -138,8 +134,6 @@ process(Clock,Reset_L, MARHiLd,Data)--why reset_L
 	  elsif (Clock'event and Clock='1') then 
 		  if (MARLoLd = '1') then
 		      MARLo <= Data;   
-		  elsif (MARLoLd = '0') then
-			   MARLo <= "0000";
 		  end if;
 		end if;		
   	end process;    
@@ -178,8 +172,6 @@ process(Clock,Reset_L, MARHiLd,Data)--why reset_L
 	  elsif (Clock'event and Clock='1') then 
 		  if (AccLd = '1') then
 		      Accumulator <= ALU_Result;   
-		  elsif (AccLd = '0') then
-			   Accumulator <= "0000";
 		  end if;
 		end if;		
   	end process;    
