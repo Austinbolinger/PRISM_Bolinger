@@ -1,7 +1,7 @@
 PRISM_Bolinger
 ==============
 
-#ALU and Datapth
+#ALU and Datapath
 ###Design
 Originally I looked at the code and saw that I needed to make a case for each OpSel. I then looked at my PRISM Instruction Set Table. I identified three of the 8 operations as operations I would need to make files for like the fuller adder we created in lab 2. I created the code for the process for the AND, NOT, ROR, OR, and IN operations. I then made vhdl files for fuller adder or ADD and LDA and NEG. But that is when I ran into problems. I did not understand how to implement entities in my cases. 
 
@@ -32,6 +32,8 @@ The test bench results look like this.
 This is the ALU test bench code. https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/ALU_testbench.vhd
 
 This is the Datapath test bench code. https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/Datapath_testbench.vhd
+
+The test bench results for the datapath are super extensive. I only checked a few of the results with the same type of logic I used to code the datapath. I would randomly click somewhere on the results and analysis the outcome.
 
 The test results for the datapath looked like this.
 ![test bench](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathtestbench.JPG?raw=true "Test Bench")
