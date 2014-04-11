@@ -40,6 +40,10 @@ I did compare my work to the lab4 handout that had the results for what our data
 Here is the results I looked at to see if my results were the same as the given results. I then used this to see what happens at 50-100ns and 225ns. 
 ![results](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathwithlab4.JPG?raw=true "Results")
 
+From 50 to 100ns the results show that it: At 54ns the clock goes up, the 4 from data is asked to be anded with the b from accumulator but the accumulator load is zero until the next clock cycle at 65ns. There the load is 1 the accumulator is still b and the op sel asks the mux to rotate right the accumulator. The result is now d as displayed by the next accumulator value. The for the reset of the time between 50 and 100 ns, the clock cycles twice more but the accumulator load is still at zero. So the accumulator just reads what it was before. 
+
+At 225 ns, 
+
 The test results for the datapath looked like this.
 ![test bench](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathtestbench.JPG?raw=true "Test Bench")
 
