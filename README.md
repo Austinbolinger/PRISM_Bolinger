@@ -37,6 +37,9 @@ The test bench results for the datapath are super extensive. I only checked a fe
 
 I did compare my work to the lab4 handout that had the results for what our data should look like. For the first 50 nseconds, at least, mine matches the lab4 test bench wave graph.
 
+Here is the results I looked at to see if my results were the same as the given results. I then used this to see what happens at 50-100ns and 225ns. 
+![results](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathwithlab4.JPG?raw=true "Results")
+
 The test results for the datapath looked like this.
 ![test bench](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathtestbench.JPG?raw=true "Test Bench")
 
