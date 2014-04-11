@@ -35,11 +35,14 @@ This is the Datapath test bench code. https://github.com/Austinbolinger/PRISM_Bo
 
 The test bench results for the datapath are super extensive. I only checked a few of the results with the same type of logic I used to code the datapath. I would randomly click somewhere on the results and analysis the outcome.
 
+I did compare my work to the lab4 handout that had the results for what our data should look like. For the first 50 nseconds, at least, mine matches the lab4 test bench wave graph.
+
 The test results for the datapath looked like this.
 ![test bench](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathtestbench.JPG?raw=true "Test Bench")
 
 ####Data Checked
 Lesson 29 Dr. Neebel checked my ALU.
+Lesson 30 Dr. Neebel saw my working datapath testbench output.
 
 #####Documentation
 C3C Pluger explained the importance of using unsigned and signed type casting.
