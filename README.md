@@ -42,7 +42,7 @@ Here is the results I looked at to see if my results were the same as the given 
 
 From 50 to 100ns the results show that it: At 54ns the clock goes up, the 4 from data is asked to be anded with the b from accumulator but the accumulator load is zero until the next clock cycle at 65ns. There the load is 1 the accumulator is still b and the op sel asks the mux to rotate right the accumulator. The result is now d as displayed by the next accumulator value. The for the reset of the time between 50 and 100 ns, the clock cycles twice more but the accumulator load is still at zero. So the accumulator just reads what it was before. 
 
-At 225 ns, 
+At 225 ns, The JmpSel turns to 1 giving the PC signal the MarHi and MarLo nibbles on the next clock cycle. Other wise the signal of MarHi and MarLo gets carried to the addSel mux. When the addSel turns to 1, the signal gives the Address bus the MarHi MarLo. Otherwise the PC signal gives the address bus its 8 bit signal.
 
 The test results for the datapath looked like this.
 ![test bench](https://github.com/Austinbolinger/PRISM_Bolinger/blob/master/datapathtestbench.JPG?raw=true "Test Bench")
